@@ -9,5 +9,5 @@
 
 ULONGLONG GetDllVersion(TCHAR* lpszDllName);
 
-ULONGLONG Shell32Version = GetDllVersion(_T("shell32.dll"));
-ULONGLONG Comctl32Version = GetDllVersion(_T("comctl32.dll"));
+static ULONGLONG Shell32Version = GetDllVersion(_T("shell32.dll"));
+static ULONGLONG Comctl32Version = GetDllVersion(_T("comctl32.dll"));
